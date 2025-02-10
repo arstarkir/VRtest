@@ -1,16 +1,23 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 
 public class LoadOnRelease : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private XRGrabInteractable grabInteractable;
+    void Awake()
     {
-        
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        grabInteractable.selectExited.AddListener(OnRelease);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDestroy()
     {
-        
+        grabInteractable.selectExited.RemoveListener(OnRelease);
+    }
+    private void OnRelease(SelectExitEventArgs args)
+    {
+        SceneManager.LoadScene(1);
     }
 }
