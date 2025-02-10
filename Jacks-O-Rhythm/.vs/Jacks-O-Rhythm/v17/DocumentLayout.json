@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Git\\VRtest\\Jacks-O-Rhythm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71E1C318-ADCA-59BD-64A4-B363BE8EAB90}|Assembly-CSharp.csproj|c:\\git\\vrtest\\jacks-o-rhythm\\assets\\scripts\\animations\\loadonrelease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E1C318-ADCA-59BD-64A4-B363BE8EAB90}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animations\\loadonrelease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71E1C318-ADCA-59BD-64A4-B363BE8EAB90}|Assembly-CSharp.csproj|c:\\git\\vrtest\\jacks-o-rhythm\\assets\\scripts\\animations\\logobganimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71E1C318-ADCA-59BD-64A4-B363BE8EAB90}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animations\\logobganimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoadOnRelease.cs",
+              "DocumentMoniker": "C:\\Git\\VRtest\\Jacks-O-Rhythm\\Assets\\Scripts\\Animations\\LoadOnRelease.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animations\\LoadOnRelease.cs",
+              "ToolTip": "C:\\Git\\VRtest\\Jacks-O-Rhythm\\Assets\\Scripts\\Animations\\LoadOnRelease.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animations\\LoadOnRelease.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:22:58.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LogoBGAnimation.cs",
               "DocumentMoniker": "C:\\Git\\VRtest\\Jacks-O-Rhythm\\Assets\\Scripts\\Animations\\LogoBGAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Animations\\LogoBGAnimation.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LogoAnimation.cs",
               "DocumentMoniker": "C:\\Git\\VRtest\\Jacks-O-Rhythm\\Assets\\Scripts\\Animations\\LogoAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Animations\\LogoAnimation.cs",
